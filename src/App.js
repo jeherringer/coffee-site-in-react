@@ -9,8 +9,6 @@ import AboutUs from './AboutUs';
 import Menu from './Menu';
 import { NavigationBar } from './components/NavBar';
 
-console.log(process.env.REACT_APP_GOOGLE_KEY);
-
 
 function App() {
   return (
