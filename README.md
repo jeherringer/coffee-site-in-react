@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional React app with multiple pages. This website utilized a few technologies like create-react-app, Firebase, Express, React, webpack, Axiom, and some others. 
 
-## Available Scripts
+The first page is the landing page which contains a jumbotron and socials linked at the bottom:
 
-In the project directory, you can run:
+![image of landing page](https://i.imgur.com/4RzOJ5U.png)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+At the top of the landing page is a horizontal navigation bar. Starting from the left and moving to the right: the contact page:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![image of contact page](https://i.imgur.com/6INEQrw.png)
 
-### `yarn test`
+This contact page is integrated with Axiom to help deliver contact requests to both Firebase and a specified email, so everytime someone submits a contact request you can see what the message is and who it was from.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Next is the About page:
 
-### `yarn build`
+![first half of about page](https://i.imgur.com/LhJckN7.png)
+![second half of about page](https://i.imgur.com/Y7CHGgc.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I just used random text for the paragraphs and need to replace the locally owned image with another random stock image as the currrent link is broken apparantly!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The next page is the locations page, which is integrated with Google Maps and Google Maps React to drop two markers where potential locations could be. Currently I am working on implementing information pop-ups on click as well once I figure the CORS issue I am running into! The navigation bar is still on this page, however I scrolled down to show the full location page content. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![locations page](https://i.imgur.com/0rXqtx4.png)
 
-### `yarn eject`
+Lastly, there is the menu page. I created the menu myself in Adobe Photoshop and just threw on some coffee related products to include. While the full menu is not included in the screen shot you get an idea of the asthetic and feeling I went for regarding the menu.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![menu image](https://i.imgur.com/kz5efEw.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As I continue to develop and work on this website, styles and animations will be included. I have run into a few road bumbs when it comes to deploying and I will be spending time to get it fully deployed and interactive! 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
